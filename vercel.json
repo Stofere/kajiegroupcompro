@@ -31,7 +31,7 @@
     "env": {
         "APP_ENV": "production",
         "APP_DEBUG": "false",
-        "APP_URL": "https://kajiegroup.vercel.app",
+        "APP_URL": "https://kajiegroup-companyprofile.vercel.app",
         "APP_KEY": "base64:R+UwEJTcXLnXrgIqjkTmv+ZEf9LBoi9UXc1C/ZqjRXs=",
         "CACHE_DRIVER": "array",
         "SESSION_DRIVER": "cookie",
