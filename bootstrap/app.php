@@ -4,6 +4,13 @@ use Illuminate\Foundation\Application;
 use Illuminate\Foundation\Configuration\Exceptions;
 use Illuminate\Foundation\Configuration\Middleware;
 
+if (isset($_ENV['VERCEL']) || getenv('VERCEL')) {
+    $compiledViewPath = '/tmp/storage/framework/views';
+    if (!is_dir($compiledViewPath)) {
+        mkdir($compiledViewPath, 0755, true);
+    }
+}
+
 return Application::configure(basePath: dirname(__DIR__))
     ->withRouting(
         web: __DIR__.'/../routes/web.php',
