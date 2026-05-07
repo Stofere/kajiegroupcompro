@@ -121,4 +121,6 @@ return [
     // Footer
     'quick_links' => 'Tautan Cepat',
     'all_rights_reserved' => 'Hak cipta dilindungi.',
+    'engineered_by' => 'Dikembangkan oleh',
+    'demo_banner' => '⚠️ Website ini masih dalam tahap DEMO / Pengembangan. Data yang ditampilkan hanyalah sebagai contoh.',
 ];

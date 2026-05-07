@@ -11,6 +11,22 @@
 </head>
 <body class="bg-white text-gray-800 font-sans antialiased">
 
+    {{-- ==================== DEMO BANNER ==================== --}}
+    <div class="fixed bottom-6 left-4 sm:left-6 z-50 max-w-sm bg-yellow-50 border-l-4 border-yellow-400 text-yellow-800 p-4 rounded-r-xl shadow-lg">
+        <div class="flex items-start">
+            <div class="flex-shrink-0">
+                <svg class="h-5 w-5 text-yellow-400" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clip-rule="evenodd" />
+                </svg>
+            </div>
+            <div class="ml-3">
+                <p class="text-sm font-medium leading-relaxed">
+                    {{ __('ui.demo_banner') }}
+                </p>
+            </div>
+        </div>
+    </div>
+
     {{-- ==================== NAVIGATION ==================== --}}
     <nav x-data="{ open: false }" class="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-100 shadow-sm">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -152,9 +168,12 @@
             </div>
 
             {{-- Bottom Bar --}}
-            <div class="mt-12 pt-8 border-t border-gray-700 text-center">
+            <div class="mt-12 pt-8 border-t border-gray-700 flex flex-col md:flex-row justify-between items-center gap-4 text-center md:text-left">
                 <p class="text-gray-400 text-sm">
                     &copy; {{ date('Y') }} {{ config('catalog.company.legal_name') }}. {{ __('ui.all_rights_reserved') }}
+                </p>
+                <p class="text-gray-400 text-sm">
+                    {{ __('ui.engineered_by') }} <span class="font-bold text-accent-400 tracking-wider">Roger Jeremy</span>
                 </p>
             </div>
         </div>

@@ -121,4 +121,6 @@ return [
     // Footer
     'quick_links' => 'Quick Links',
     'all_rights_reserved' => 'All rights reserved.',
+    'engineered_by' => 'Engineered by',
+    'demo_banner' => '⚠️ This website is currently in DEMO / Development phase. Information shown is for demonstration purposes only.',
 ];
