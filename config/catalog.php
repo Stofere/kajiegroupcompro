@@ -20,7 +20,7 @@ return [
         ],
         'phone' => '+62 813 3685 3355',
         'whatsapp' => '+6281336853355',
-        'email' => [ 'en' => [ 'kajie.group@gmail.com', 'email@kajiegroup.co.id' ] , 'id' => [ 'kajie.group@gmail.com', 'email@kajiegroup.co.id' ] ],
+        'email' => [ 'en' => [ 'kajie.group@gmail.com', 'email@kajiegroup.co.id', 'sales@kajiegroup.co.id' ] , 'id' => [ 'kajie.group@gmail.com', 'email@kajiegroup.co.id', 'sales@kajiegroup.co.id' ] ],
         'address' => 'JMWG+C83, Cluster Cattleya CD2 Jl. Griya Taman Asri, Tawangsari Timur, Tawangsari, Taman, Sidoarjo Regency, East Java 61257',
         'maps_link' => 'https://maps.app.goo.gl/W2b5jKrybjwvEx7U9',
         'founded_year' => 2015,
@@ -558,128 +558,228 @@ return [
     'clients' => [
         [
             'name' => 'PT. Kalimantan Prima Persada (KPP)',
-            'industry' => ['en' => '-', 'id' => '-'],
-            'project' => ['en' => '-', 'id' => '-']
+            'industry' => [
+                'en' => '-',
+                'id' => '-'],
+            'project' => [
+                'en' => '-',
+                'id' => '-']
         ],
         [
             'name' => 'PT. Corin Mulia Gemilang (Maxxi Group)',
-            'industry' => ['en' => '-', 'id' => '-'],
-            'project' => ['en' => '-', 'id' => '-']
+            'industry' => [
+                'en' => '-',
+                'id' => '-'],
+            'project' => [
+                'en' => '-',
+                'id' => '-']
         ],
         [
             'name' => 'PT. MSI',
-            'industry' => ['en' => '-', 'id' => '-'],
-            'project' => ['en' => '-', 'id' => '-']
+            'industry' => [
+                'en' => '-',
+                'id' => '-'],
+            'project' => [
+                'en' => '-',
+                'id' => '-']
         ],
         [
             'name' => 'PT. Gunung Bale',
-            'industry' => ['en' => '-', 'id' => '-'],
-            'project' => ['en' => '-', 'id' => '-']
+            'industry' => [
+                'en' => '-',
+                'id' => '-'],
+            'project' => [
+                'en' => '-',
+                'id' => '-']
         ],
         [
             'name' => 'PT. Krakatau Perbengkelan & Perawatan',
-            'industry' => ['en' => '-', 'id' => '-'],
-            'project' => ['en' => '-', 'id' => '-']
+            'industry' => [
+                'en' => '-',
+                'id' => '-'],
+            'project' => [
+                'en' => '-',
+                'id' => '-']
         ],
         [
             'name' => 'PT. Krakatau Posco',
-            'industry' => ['en' => '-', 'id' => '-'],
-            'project' => ['en' => '-', 'id' => '-']
+            'industry' => [
+                'en' => '-',
+                'id' => '-'],
+            'project' => [
+                'en' => '-',
+                'id' => '-']
         ],
         [
             'name' => 'PT. Sinergi Gas Indoraya',
-            'industry' => ['en' => '-', 'id' => '-'],
-            'project' => ['en' => '-', 'id' => '-']
+            'industry' => [
+                'en' => '-',
+                'id' => '-'],
+            'project' => [
+                'en' => '-',
+                'id' => '-']
         ],
         [
             'name' => 'PT. Jumai Trading Indonesia',
-            'industry' => ['en' => '-', 'id' => '-'],
-            'project' => ['en' => '-', 'id' => '-']
+            'industry' => [
+                'en' => '-',
+                'id' => '-'],
+            'project' => [
+                'en' => '-',
+                'id' => '-']
         ],
         [
             'name' => 'PT. Songgo Buwana Luhur',
-            'industry' => ['en' => '-', 'id' => '-'],
-            'project' => ['en' => '-', 'id' => '-']
+            'industry' => [
+                'en' => '-',
+                'id' => '-'],
+            'project' => [
+                'en' => '-',
+                'id' => '-']
         ],
         [
             'name' => 'PT. Fortuna Marina Sejahtera',
-            'industry' => ['en' => '-', 'id' => '-'],
-            'project' => ['en' => '-', 'id' => '-']
+            'industry' => [
+                'en' => '-',
+                'id' => '-'],
+            'project' => [
+                'en' => '-',
+                'id' => '-']
         ],
         [
             'name' => 'PT. Bumi Kejayan',
-            'industry' => ['en' => '-', 'id' => '-'],
-            'project' => ['en' => '-', 'id' => '-']
+            'industry' => [
+                'en' => '-',
+                'id' => '-'],
+            'project' => [
+                'en' => '-',
+                'id' => '-']
         ],
         [
             'name' => 'PT. Unggul Jaya Sejahtera',
-            'industry' => ['en' => '-', 'id' => '-'],
-            'project' => ['en' => '-', 'id' => '-']
+            'industry' => [
+                'en' => '-',
+                'id' => '-'],
+            'project' => [
+                'en' => '-',
+                'id' => '-']
         ],
         [
             'name' => 'PT. Hervitama Engineering Indonesia',
-            'industry' => ['en' => '-', 'id' => '-'],
-            'project' => ['en' => '-', 'id' => '-']
+            'industry' => [
+                'en' => '-',
+                'id' => '-'],
+            'project' => [
+                'en' => '-',
+                'id' => '-']
         ],
         [
             'name' => 'CV. Yumara',
-            'industry' => ['en' => '-', 'id' => '-'],
-            'project' => ['en' => '-', 'id' => '-']
+            'industry' => [
+                'en' => '-',
+                'id' => '-'],
+            'project' => [
+                'en' => '-',
+                'id' => '-']
         ],
         [
             'name' => 'PT. Plastisindo Bestari Wisesa',
-            'industry' => ['en' => '-', 'id' => '-'],
-            'project' => ['en' => '-', 'id' => '-']
+            'industry' => [
+                'en' => '-',
+                'id' => '-'],
+            'project' => [
+                'en' => '-',
+                'id' => '-']
         ],
         [
             'name' => 'PT. BISI International Tbk.',
-            'industry' => ['en' => '-', 'id' => '-'],
-            'project' => ['en' => '-', 'id' => '-']
+            'industry' => [
+                'en' => '-',
+                'id' => '-'],
+            'project' => [
+                'en' => '-',
+                'id' => '-']
         ],
         [
             'name' => 'PT. Eagan Warsana Energi',
-            'industry' => ['en' => '-', 'id' => '-'],
-            'project' => ['en' => '-', 'id' => '-']
+            'industry' => [
+                'en' => '-',
+                'id' => '-'],
+            'project' => [
+                'en' => '-',
+                'id' => '-']
         ],
         [
             'name' => 'PT. Indonesia Smelting Technology (Inalum Group)',
-            'industry' => ['en' => '-', 'id' => '-'],
-            'project' => ['en' => '-', 'id' => '-']
+            'industry' => [
+                'en' => '-',
+                'id' => '-'],
+            'project' => [
+                'en' => '-',
+                'id' => '-']
         ],
         [
             'name' => 'PT. Pancadharma Puspawira',
-            'industry' => ['en' => '-', 'id' => '-'],
-            'project' => ['en' => '-', 'id' => '-']
+            'industry' => [
+                'en' => '-',
+                'id' => '-'],
+            'project' => [
+                'en' => '-',
+                'id' => '-']
         ],
         [
             'name' => 'PT. AMJ Riau',
-            'industry' => ['en' => '-', 'id' => '-'],
-            'project' => ['en' => '-', 'id' => '-']
+            'industry' => [
+                'en' => '-',
+                'id' => '-'],
+            'project' => [
+                'en' => '-',
+                'id' => '-']
         ],
         [
             'name' => 'CV. Melati',
-            'industry' => ['en' => '-', 'id' => '-'],
-            'project' => ['en' => '-', 'id' => '-']
+            'industry' => [
+                'en' => '-',
+                'id' => '-'],
+            'project' => [
+                'en' => '-',
+                'id' => '-']
         ],
         [
             'name' => 'CV. Irsal Jaya Teknik',
-            'industry' => ['en' => '-', 'id' => '-'],
-            'project' => ['en' => '-', 'id' => '-']
+            'industry' => [
+                'en' => 'HVAC & Commercial Cold Storage / HVAC',
+                'id' => 'Penyimpanan Dingin Komersial'],
+            'project' => [
+                'en' => 'Procurement and Integration of Logistics Cold Room Systems',
+                'id' => 'Pengadaan dan Integrasi Sistem Ruang Dingin Logistik']
         ],
         [
             'name' => 'CV. Santana Jaya Utama',
-            'industry' => ['en' => '-', 'id' => '-'],
-            'project' => ['en' => '-', 'id' => '-']
+            'industry' => [
+                'en' => 'Computer & Industrial Hardware Supply',
+                'id' => 'Suplai Komputer & Perangkat Keras Industri'],
+            'project' => [
+                'en' => 'Distribution Network for Packaging Actuators', 
+                'id' => 'Jaringan Distribusi untuk Aktuator Pengemasan']
         ],
         [
             'name' => 'UPTD Keramik Malang',
-            'industry' => ['en' => '-', 'id' => '-'],
-            'project' => ['en' => '-', 'id' => '-']
+            'industry' => [
+                'en' => 'Regional Ceramic & Pottery Manufacturing',
+                'id' => 'Manufaktur Keramik & Tembikar Daerah'],
+            'project' => [
+                'en' => 'Supply and Installation of Automated Clay Handling Plant',
+                'id' => 'Suplai dan Instalasi Pabrik Penanganan Tanah Liat Otomatis']
         ],
         [
             'name' => 'PT. Bahagia Jaya',
-            'industry' => ['en' => '-', 'id' => '-'],
-            'project' => ['en' => '-', 'id' => '-']
+            'industry' => [
+                'en' => 'Food & Agricultural Machinery Manufacturing',
+                'id' => 'Manufaktur Mesin Pangan & Pertanian'],
+            'project' => [
+                'en' => 'Dynamo Motors and Drive Mechanisms Supply',
+                'id' => 'Penyediaan Motor Dinamo dan Mekanisme Penggerak']
         ],
         [
             'name' => 'PT. Sumber Bangun Sentosa',
@@ -687,7 +787,9 @@ return [
                 'en' => 'Civil & Mechanical Construction Contractor ',
                 'id' => 'Kontraktor Konstruksi Sipil & Mekanikal'
             ],
-            'project' => ['en' => '-', 'id' => '-']
+            'project' => [
+                'en' => 'Supply of Mechanical Structures & Heavy Equipment Accessories',
+                'id' => 'Suplai Struktur Mekanikal & Aksesoris Alat Berat']
         ],
         [
             'name' => 'PT. Galba Group',
